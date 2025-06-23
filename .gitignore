@@ -1,2 +1,4 @@
-renv/
+renv/**
 results/
+!renv/activate.R
+!renv/settings.json

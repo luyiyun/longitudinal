@@ -8,5 +8,8 @@ data(sleepstudy)
 model_intercept <- lmer(Reaction ~ Days + (1 | Subject), data = sleepstudy)
 summary(model_intercept)
 
-model_intercept <- lmer(Reaction ~ Days + (Days | Subject), data = sleepstudy)
-summary(model_intercept)
+model_slope <- lmer(Reaction ~ Days + (Days | Subject), data = sleepstudy)
+summary(model_slope)
+
+
+anova(model_intercept, model_slope)

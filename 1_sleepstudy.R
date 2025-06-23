@@ -1,6 +1,3 @@
-# renv::install("languageserver")
-# renv::install(c("tidyverse", "lme4"))
-
 library(lme4)      # 用于混合模型（后续使用）和加载数据
 library(ggplot2)   # 用于数据可视化
 library(dplyr)     # 用于数据处理
