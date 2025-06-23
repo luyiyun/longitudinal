@@ -1,4 +1,8 @@
+.venv/
 renv/**
+data/
 results/
 !renv/activate.R
 !renv/settings.json
+
+__pycache__/
